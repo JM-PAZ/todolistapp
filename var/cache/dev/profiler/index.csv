@@ -384,3 +384,16 @@ de0c01,::1,GET,http://localhost:8000/categoria/,1568704052,,200
 0e4cc0,::1,GET,http://localhost:8000/registro/,1568704088,,200
 9189c2,::1,GET,http://localhost:8000/registro/,1568704092,,200
 319cf2,::1,GET,http://localhost:8000/registro/,1568704516,,200
+8b6542,::1,GET,http://localhost:8000/,1568738028,,200
+a36b17,::1,GET,http://localhost:8000/,1568738029,,200
+6d9d40,::1,GET,http://localhost:8000/,1568740236,411107,200
+411107,::1,GET,http://localhost:8000/,1568740236,,500
+0a5086,::1,GET,http://localhost:8000/actividades/,1568746184,,302
+c91114,::1,GET,http://localhost:8000/iniciar-sesion,1568746188,,200
+2e35c5,::1,POST,http://localhost:8000/login_check,1568746201,,302
+9e921d,::1,GET,http://localhost:8000/iniciar-sesion,1568746204,,200
+12d55a,::1,POST,http://localhost:8000/login_check,1568746219,,302
+57448d,::1,GET,http://localhost:8000/iniciar-sesion,1568746222,,200
+bd369b,::1,GET,http://localhost:8000/iniciar-sesion,1568746246,,200
+f53901,::1,POST,http://localhost:8000/login_check,1568746255,,302
+669c9e,::1,GET,http://localhost:8000/actividades/,1568746258,,200
