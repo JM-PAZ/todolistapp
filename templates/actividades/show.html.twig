@@ -12,19 +12,19 @@
                 <td>{{ actividade.id }}</td>
             </tr>
             <tr>
-                <th>Name</th>
+                <th>Nombre</th>
                 <td>{{ actividade.name }}</td>
             </tr>
             <tr>
-                <th>Descripcion</th>
+                <th>Descripción</th>
                 <td>{{ actividade.descripcion }}</td>
             </tr>
         </tbody>
     </table>
 
-    <a href="{{ path('actividades_index') }}">back to list</a>
+    <a href="{{ path('actividades_index') }}">Volver</a>
 
-    <a href="{{ path('actividades_edit', {'id': actividade.id}) }}">edit</a>
+    <a href="{{ path('actividades_edit', {'id': actividade.id}) }}">Editar</a>
 
     {{ include('actividades/_delete_form.html.twig') }}
 {% endblock %}

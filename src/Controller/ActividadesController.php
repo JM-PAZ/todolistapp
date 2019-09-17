@@ -27,6 +27,7 @@ class ActividadesController extends AbstractController
 
     /**
      * @Route("/new", name="actividades_new", methods={"GET","POST"})
+     *
      */
     public function new(Request $request): Response
     {
@@ -50,6 +51,7 @@ class ActividadesController extends AbstractController
 
     /**
      * @Route("/{id}", name="actividades_show", methods={"GET"})
+     *
      */
     public function show(Actividades $actividade): Response
     {
@@ -60,6 +62,7 @@ class ActividadesController extends AbstractController
 
     /**
      * @Route("/{id}/edit", name="actividades_edit", methods={"GET","POST"})
+     *
      */
     public function edit(Request $request, Actividades $actividade): Response
     {
@@ -80,6 +83,7 @@ class ActividadesController extends AbstractController
 
     /**
      * @Route("/{id}", name="actividades_delete", methods={"DELETE"})
+     *
      */
     public function delete(Request $request, Actividades $actividade): Response
     {

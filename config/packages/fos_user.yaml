@@ -6,5 +6,7 @@ fos_user:
     address: "jmpazrod@gmail.com"
     sender_name: "Juan Paz"
   registration:
+    form:
+      type: App\Form\RegistrationType
     confirmation:
       enabled: true
