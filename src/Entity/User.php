@@ -1,6 +1,6 @@
 <?php
 // src/Entity/User.php
-
+//p
 namespace App\Entity;
 
 use FOS\UserBundle\Model\User as BaseUser;

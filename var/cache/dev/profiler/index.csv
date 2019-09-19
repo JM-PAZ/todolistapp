@@ -397,3 +397,8 @@ c91114,::1,GET,http://localhost:8000/iniciar-sesion,1568746188,,200
 bd369b,::1,GET,http://localhost:8000/iniciar-sesion,1568746246,,200
 f53901,::1,POST,http://localhost:8000/login_check,1568746255,,302
 669c9e,::1,GET,http://localhost:8000/actividades/,1568746258,,200
+181b02,::1,GET,http://localhost:8000/,1568769794,,200
+17b366,::1,GET,http://localhost:8000/,1568769797,,200
+a291d4,::1,GET,http://localhost:8000/favicon.ico,1568769809,a52f71,200
+a52f71,::1,GET,http://localhost:8000/favicon.ico,1568769810,,404
+50eca7,::1,GET,http://localhost:8000/logout,1568769823,,302
