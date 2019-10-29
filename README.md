@@ -1,6 +1,8 @@
 Proyecto realizado para la prueba todo list app
 
+
 Desarrollador
+
 Juan Manuel Paz Rodriguez
 
 Tecnologías usadas
