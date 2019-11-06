@@ -1,63 +1,27 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Inicio{% endblock %}</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
+<?php
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="{{ path('homepage') }}">
-                <img src="{{ asset('images/logo.png') }}" alt="Actividades" height="40">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+use App\Kernel;
+use Symfony\Component\Debug\Debug;
+use Symfony\Component\HttpFoundation\Request;
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="{{ path('homepage') }}">Inicio</a>
-                    </li>
+require dirname(__DIR__).'/config/bootstrap.php';
 
-                    {% if not is_granted("IS_AUTHENTIFICATED_FULLY") %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ path('fos_user_security_login') }}">Iniciar sesión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ path('fos_user_registration_register') }}">Registrarme</a>
-                    </li>
-                    {% endif %}
+if ($_SERVER['APP_DEBUG']) {
+    umask(0000);
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ path('actividades_index') }}">Actividades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ path('categoria_index') }}">Categoria</a>
-                    </li>
-                </ul>
+    Debug::enable();
+}
 
-                {% if is_granted("IS_AUTHENTICATED_FULLY") %}
-                    {% if app.user.nombre %}
-                        <span class="mr-sm-2">Hola {{ app.user.nombre }}</span>
-                    {% else %}
-                        <span class="mr-sm-2">Hola {{ app.user.username }}</span>
-                    {% endif %}
-                    <span>(<a href="{{ path("fos_user_security_logout") }}">Salir</a>)</span>
-                {% endif %}
+if ($trustedProxies = $_SERVER['TRUSTED_PROXIES'] ?? $_ENV['TRUSTED_PROXIES'] ?? false) {
+    Request::setTrustedProxies(explode(',', $trustedProxies), Request::HEADER_X_FORWARDED_ALL ^ Request::HEADER_X_FORWARDED_HOST);
+}
 
-            </div>
-        </nav>
-        <div class="container">
-            {% block body %}{% endblock %}
-        </div>
+if ($trustedHosts = $_SERVER['TRUSTED_HOSTS'] ?? $_ENV['TRUSTED_HOSTS'] ?? false) {
+    Request::setTrustedHosts([$trustedHosts]);
+}
 
-        <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        {% block javascripts %}{% endblock %}
-    </body>
-</html>
-
+$kernel = new Kernel($_SERVER['APP_ENV'], (bool) $_SERVER['APP_DEBUG']);
+$request = Request::createFromGlobals();
+$response = $kernel->handle($request);
+$response->send();
+$kernel->terminate($request, $response);
