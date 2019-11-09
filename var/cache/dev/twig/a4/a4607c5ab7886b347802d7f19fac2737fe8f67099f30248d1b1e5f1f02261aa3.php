@@ -12,7 +12,7 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* @FOSUser/Resetting/email.txt.twig */
+/* FOSUserBundle:Resetting:email.txt.twig */
 class __TwigTemplate_84126cab007bc94fbedcc49ea32e802fd9ad9025a6d9b3b8c2a633a99d500970 extends \Twig\Template
 {
     private $source;
@@ -37,10 +37,10 @@ class __TwigTemplate_84126cab007bc94fbedcc49ea32e802fd9ad9025a6d9b3b8c2a633a99d5
     {
         $macros = $this->macros;
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@FOSUser/Resetting/email.txt.twig"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "FOSUserBundle:Resetting:email.txt.twig"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@FOSUser/Resetting/email.txt.twig"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "FOSUserBundle:Resetting:email.txt.twig"));
 
         // line 2
         $this->displayBlock('subject', $context, $blocks);
@@ -121,7 +121,7 @@ class __TwigTemplate_84126cab007bc94fbedcc49ea32e802fd9ad9025a6d9b3b8c2a633a99d5
 
     public function getTemplateName()
     {
-        return "@FOSUser/Resetting/email.txt.twig";
+        return "FOSUserBundle:Resetting:email.txt.twig";
     }
 
     public function getDebugInfo()
@@ -144,6 +144,6 @@ class __TwigTemplate_84126cab007bc94fbedcc49ea32e802fd9ad9025a6d9b3b8c2a633a99d5
 {% endautoescape %}
 {% endblock %}
 {% block body_html %}{% endblock %}
-", "@FOSUser/Resetting/email.txt.twig", "C:\\Users\\JMPAZ\\Documents\\todolistapp\\vendor\\friendsofsymfony\\user-bundle\\Resources\\views\\Resetting\\email.txt.twig");
+", "FOSUserBundle:Resetting:email.txt.twig", "C:\\Users\\JMPAZ\\Documents\\todolistapp\\vendor\\friendsofsymfony\\user-bundle\\Resources\\views\\Resetting\\email.txt.twig");
     }
 }

@@ -12,7 +12,7 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* @Framework/Form/attributes.html.php */
+/* FrameworkBundle:Form:attributes.html.php */
 class __TwigTemplate_110f9c1935982d79dd65518d199c367fed1a4cb15301360785ebb55069032029 extends \Twig\Template
 {
     private $source;
@@ -34,10 +34,10 @@ class __TwigTemplate_110f9c1935982d79dd65518d199c367fed1a4cb15301360785ebb550690
     {
         $macros = $this->macros;
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@Framework/Form/attributes.html.php"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "FrameworkBundle:Form:attributes.html.php"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@Framework/Form/attributes.html.php"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "FrameworkBundle:Form:attributes.html.php"));
 
         // line 1
         echo "<?php foreach (\$attr as \$k => \$v): ?>
@@ -60,7 +60,7 @@ class __TwigTemplate_110f9c1935982d79dd65518d199c367fed1a4cb15301360785ebb550690
 
     public function getTemplateName()
     {
-        return "@Framework/Form/attributes.html.php";
+        return "FrameworkBundle:Form:attributes.html.php";
     }
 
     public function getDebugInfo()
@@ -79,6 +79,6 @@ class __TwigTemplate_110f9c1935982d79dd65518d199c367fed1a4cb15301360785ebb550690
 <?php printf('%s=\"%s\" ', \$view->escape(\$k), \$view->escape(\$v)) ?>
 <?php endif ?>
 <?php endforeach ?>
-", "@Framework/Form/attributes.html.php", "C:\\Users\\JMPAZ\\Documents\\todolistapp\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\attributes.html.php");
+", "FrameworkBundle:Form:attributes.html.php", "C:\\Users\\JMPAZ\\Documents\\todolistapp\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\attributes.html.php");
     }
 }

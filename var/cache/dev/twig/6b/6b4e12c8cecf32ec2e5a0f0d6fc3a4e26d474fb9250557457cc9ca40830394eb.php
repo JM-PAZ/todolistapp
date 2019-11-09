@@ -12,7 +12,7 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* @Framework/Form/repeated_row.html.php */
+/* FrameworkBundle:Form:repeated_row.html.php */
 class __TwigTemplate_f0666f19892da1ae5e99fb32071294f8d5621255299c2ee2917520f3a8595936 extends \Twig\Template
 {
     private $source;
@@ -34,10 +34,10 @@ class __TwigTemplate_f0666f19892da1ae5e99fb32071294f8d5621255299c2ee2917520f3a85
     {
         $macros = $this->macros;
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@Framework/Form/repeated_row.html.php"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "FrameworkBundle:Form:repeated_row.html.php"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@Framework/Form/repeated_row.html.php"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "FrameworkBundle:Form:repeated_row.html.php"));
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'form_rows') ?>
@@ -52,7 +52,7 @@ class __TwigTemplate_f0666f19892da1ae5e99fb32071294f8d5621255299c2ee2917520f3a85
 
     public function getTemplateName()
     {
-        return "@Framework/Form/repeated_row.html.php";
+        return "FrameworkBundle:Form:repeated_row.html.php";
     }
 
     public function getDebugInfo()
@@ -63,6 +63,6 @@ class __TwigTemplate_f0666f19892da1ae5e99fb32071294f8d5621255299c2ee2917520f3a85
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_rows') ?>
-", "@Framework/Form/repeated_row.html.php", "C:\\Users\\JMPAZ\\Documents\\todolistapp\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\repeated_row.html.php");
+", "FrameworkBundle:Form:repeated_row.html.php", "C:\\Users\\JMPAZ\\Documents\\todolistapp\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\repeated_row.html.php");
     }
 }

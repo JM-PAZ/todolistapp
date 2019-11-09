@@ -89,7 +89,7 @@ class __TwigTemplate_ae7bc309bf9fe774f42ec912fa749c1f49f3cc72d7951baac1336fff472
 
     ";
         // line 8
-        echo twig_include($this->env, $context, "actividades/_form.html.twig", ["button_label" => "Editar"]);
+        echo twig_include($this->env, $context, "actividades/_form.html.twig", ["button_label" => "Actualizar"]);
         echo "
 
     <a href=\"";
@@ -134,7 +134,7 @@ class __TwigTemplate_ae7bc309bf9fe774f42ec912fa749c1f49f3cc72d7951baac1336fff472
 {% block body %}
     <h1>Editar Actividades</h1>
 
-    {{ include('actividades/_form.html.twig', {'button_label': 'Editar'}) }}
+    {{ include('actividades/_form.html.twig', {'button_label': 'Actualizar'}) }}
 
     <a href=\"{{ path('actividades_index') }}\">Volver</a>
 
