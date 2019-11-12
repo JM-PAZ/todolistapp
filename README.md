@@ -14,4 +14,12 @@ Tecnologías usadas
 
 Para el registro de usuario, utilice mailtrap para la verificacion del correo. El sistema no permite usar el usuario creado sino se ha verificado el correo con mailtrap.
 
-Para la gestion de os usuarios utilice el FOSUserBundle.
+En la siguiente cuenta, llegaran los correos para autenticar las cuentas de usuario que se registran
+
+correo mailtrap: pruebapaislistapp@gmail.com
+contraseña: pruebapais
+
+usuario ya creado en el app list
+
+user: admin
+pass: admin
