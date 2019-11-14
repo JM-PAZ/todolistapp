@@ -1,4 +1,4 @@
-###### Proyecto realizado para la prueba todo list app
+# Proyecto realizado para la prueba todo list app
 
 **Desarrollador**
 
