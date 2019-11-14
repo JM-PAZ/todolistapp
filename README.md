@@ -4,12 +4,14 @@
 
 Juan Manuel Paz Rodriguez
 
+
 **Tecnologías usadas**
 - PHP Symfony4 con el Doctrine ORM
 - Bootstrap4
 - MySQL
 - Repositorio GitHub
 - Despliegue en Google Cloud Platform con LEMP ubuntu 
+
 
 **Detalle:**
 
@@ -20,6 +22,7 @@ En la siguiente cuenta, llegaran los correos para autenticar las cuentas de usua
 correo mailtrap: pruebapaislistapp@gmail.com
 
 contraseña: pruebapais
+
 
 **Usuario ya creado en el app list**
 
