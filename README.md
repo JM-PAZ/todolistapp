@@ -8,9 +8,11 @@ Juan Manuel Paz Rodriguez
 Tecnologías usadas
 * PHP Symfony4 con el Doctrine ORM
 * Bootstrap4
-* MySQL - Apache
+* MySQL
 * Repositorio GitHub
-* Detalle
+* Despliegue en Google Cloud Platform con LEMP ubuntu 
+
+Detalle:
 
 Para el registro de usuario, utilice mailtrap para la verificacion del correo. El sistema no permite usar el usuario creado sino se ha verificado el correo con mailtrap.
 
