@@ -1,26 +1,26 @@
-_Proyecto realizado para la prueba todo list app_
+######**Proyecto realizado para la prueba todo list app**
 
 
-_Desarrollador_
+**Desarrollador**
 
 Juan Manuel Paz Rodriguez
 
-_Tecnologías usadas_
-* PHP Symfony4 con el Doctrine ORM
-* Bootstrap4
-* MySQL
-* Repositorio GitHub
-* Despliegue en Google Cloud Platform con LEMP ubuntu 
+**Tecnologías usadas**
+- PHP Symfony4 con el Doctrine ORM
+- Bootstrap4
+- MySQL
+- Repositorio GitHub
+- Despliegue en Google Cloud Platform con LEMP ubuntu 
 
-_Detalle:_
+**Detalle:**
 
 Para el registro de usuario, utilice mailtrap para la verificacion del correo. El sistema no permite usar el usuario creado sino se ha verificado el correo con mailtrap.
 
 En la siguiente cuenta, llegaran los correos para autenticar las cuentas de usuario que se registran
 
-correo mailtrap: pruebapaislistapp@gmail.com /n
+correo mailtrap: pruebapaislistapp@gmail.com
 contraseña: pruebapais
 
-_Usuario ya creado en el app list_
-user: admin /n
+**Usuario ya creado en el app list**
+user: admin
 pass: admin
