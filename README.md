@@ -19,7 +19,7 @@ Para el registro de usuario, utilice mailtrap para la verificacion del correo. E
 
 En la siguiente cuenta, llegaran los correos para autenticar las cuentas de usuario que se registran
 
-**correo [Mailtrap](https://mailtrap.io/signin):**
+**Correo [Mailtrap](https://mailtrap.io/signin):**
 
 Email: pruebapaislistapp@gmail.com
 
