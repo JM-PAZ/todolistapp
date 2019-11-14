@@ -31,3 +31,8 @@ contraseña: pruebapais
 user: admin
 
 pass: admin
+
+
+**Link de la app**
+
+http://35.184.130.66/
